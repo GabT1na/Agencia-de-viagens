@@ -21,20 +21,24 @@ console.log();
 let nome = entrada("Digite seu nome: ");
 console.log ("O nome digitado foi: " + nome);
 let idade = entrada("Digite sua idade: ");
+idade = parseInt(idade);
 console.log("A idade digitada foi: %d", idade)
 console.log();
 let loginCerto ="Admin";
 let senhaCerta = 12345;
 let login = entrada("Entre com seu login: ");
+console.log();
 let senha = entrada("Digite sua senha: ");
 if(senha == senhaCerta){
   console.log("A senha está correta!");
   console.log("Bem vindo Administrador");
 }
 
-
+console.log();
 console.log(separador);
+console.log();
 console.log("🌎 " + tituloSecaoDestinos + " 🌎");
+console.log();
 console.log(separador);
 console.log();
 
@@ -58,7 +62,7 @@ console.log();
 console.log(separador);
 console.log();
 
-console.log("5.💂🏻 " + destino5Nome);
+console.log("5.👑 " + destino5Nome);
 console.log();
 console.log(separador);
 console.log();
